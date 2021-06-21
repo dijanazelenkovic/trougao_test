@@ -21,17 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://iteon.org/qa/01-trougao-v1/')
 
-WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_9f4979'), '@')
+WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_9f4979'), '4')
 
-WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_de46a7'), '3')
+WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_de46a7'), '@')
 
-WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_5324ef'), '4')
+WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_5324ef'), '5')
 
 WebUI.click(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_6bca0c'))
 
-WebUI.rightClick(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_6bca0c'))
-
 WebUI.click(findTestObject('Object Repository/Page_/label_Trougao je raznostranian'))
 
-WebUI.verifyElementText(findTestObject('Page_/label_Trougao je raznostranian'), '"Nije trougao"')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_/label_Trougao je raznostranian'), 'Trougao je raznostraničan.')
 
